@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-
+  <!-- style -->
+  <link rel="stylesheet" href="assets/css/style.min.css">
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -20,34 +21,38 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Your Result</h1>
+  <main class="main-content">
+    <header class="header">
+      <h1 class="title-header">Your Result</h1>
+      <div class="result">
+        
+        <p class="number-result">76</p>
+        <p class="of-100">of 100</p>
+        
+      </div>
+
+      <div class="result-rate">
+        <h2 class="classification">Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </header>
     
-    <div class="result">
-      
-      <p>76</p>
-      <p>of 100</p>
-      
-    </div>
-
-    <div class="result-rate">
-      <h2 class="rate-result">Great</h2>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </div>
-  </header>
-
-  <section class="data-summary">
-    <h2 class="title-summary">Summary</h2>
+    <div class="container">
     
-    <ul class="summary-list">
-      <li>Reaction  <span class="data">80 / 100</span></li>
-      <li>Memory <span class="data">92 / 100</span></li>
-      <li>Verbal <span class="data">61 / 100</span></li>
-      <li>Verbal Visual <span class="data">72 / 100</span></li>
-    </ul>
-
-    <button class="btn">Continue</button>
-  </section>
+      <section class="data-summary">
+        <h2 class="title-summary">Summary</h2>
+        
+        <ul class="summary-list">
+          <li><img src="assets/images/icon-reaction.svg" > Reaction  <span class="data"><b>80</b> / 100</span></li>
+          <li><img src="assets/images/icon-memory.svg"> Memory <span class="data"><b>92</b> / 100</span></li>
+          <li><img src="assets/images/icon-verbal.svg"> Verbal <span class="data"><b>61</b> / 100</span></li>
+          <li><img src="assets/images/icon-visual.svg"> Verbal Visual <span class="data"><b>72</b> / 100</span></li>
+        </ul>
+        
+        <button class="btn">Continue</button>
+      </section>
+    </div>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
