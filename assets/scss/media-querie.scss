@@ -1,0 +1,45 @@
+@media screen and (min-width: 800px) {
+    body{
+        background-color: aliceblue;
+    }
+    .main-content {
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        background-color: $color-white;
+        border-radius: 30px;
+        
+        box-sizing: border-box;
+        
+        
+        
+    //header
+    .header{
+        z-index:1;
+        width: 100vw;
+        border-radius: 30px;
+    
+    .result{
+        width: 180px;
+        height: 180px;
+        border-radius: calc(240px / 2); 
+    }
+    .number-result{
+        font-size: 65px;
+    }
+    }//end header
+    //container
+    .container{
+        padding:10px;
+        border-radius: 0 30px 30px 0;
+        .data-summary{
+            .btn:hover{
+            background: $background;
+
+            }
+        }
+
+    }// end container
+}
+}
+    
