@@ -2,13 +2,19 @@
     body{
         background-color: aliceblue;
     }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
     .main-content {
         width: 800px;
         display: flex;
         flex-direction: row;
         background-color: $color-white;
         border-radius: 30px;
-        
+        box-shadow: 29px 29px 24px -27px rgba(126, 156, 222, 0.45); 
         box-sizing: border-box;
         
         
@@ -28,6 +34,7 @@
         font-size: 65px;
     }
     }//end header
+
     //container
     .container{
         padding:10px;
