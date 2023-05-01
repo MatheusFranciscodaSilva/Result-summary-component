@@ -165,5 +165,21 @@
 
         
     }
-}
+    } 
+    .attribution { 
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top:20px;
+        height: 20px;
+        width:100vw;
+        background: transparent;
+        font-size: 11px;
+        text-align: center;
+        a { 
+            color: hsl(228, 45%, 44%);
+        }
+    }
+        
 @import "media-querie.scss";
