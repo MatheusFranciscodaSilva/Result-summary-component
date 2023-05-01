@@ -1,6 +1,6 @@
 @media screen and (min-width: 800px) {
     body{
-        background-color: aliceblue;
+        background: #f7f8fa;
     }
     .center{
         display: flex;
@@ -14,8 +14,8 @@
         flex-direction: row;
         background-color: $color-white;
         border-radius: 30px;
-        box-shadow: 29px 29px 24px -27px rgba(126, 156, 222, 0.45); 
-        box-sizing: border-box;
+        box-shadow: 0px 10px 15px -3px rgba(70, 103, 168, 0.1),0px 4px 6px -4px  rgba(70, 103, 168, 0.1);
+        
         
         
         
@@ -24,6 +24,7 @@
         z-index:1;
         width: 100vw;
         border-radius: 30px;
+        padding-bottom: 30px;
     
     .result{
         width: 180px;
@@ -33,6 +34,7 @@
     .number-result{
         font-size: 65px;
     }
+    
     }//end header
 
     //container
